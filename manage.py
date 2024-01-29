@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+print("Current Working Directory:", os.getcwd())
 
 def main():
     """Run administrative tasks."""
