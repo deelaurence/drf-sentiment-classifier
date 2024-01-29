@@ -18,7 +18,7 @@ print("Current Working Directory:", os.getcwd())
 
 
 print("linne       1")
-new_model = tf.keras.models.load_model('myapp/twitter_sentiment_model.keras')
+new_model = tf.keras.models.load_model('twitter_sentiment_model.keras')
 print("linne       2")
 
 
