@@ -8,3 +8,14 @@ Content-Type: application/json
 
 ]
 }
+
+
+
+###
+
+POST https://happy-or-pissed.onrender.com/predict
+Content-Type: application/json
+
+{
+  "text":"Hey there"
+}
