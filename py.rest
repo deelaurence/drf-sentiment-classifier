@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
     "sentences" : [
-  "News at eight is very annoying"
+  "News at eigh is very annoying"
 
 ]
 }
