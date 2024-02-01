@@ -18,7 +18,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from myapp.utils import load_model_and_tokenizer
 
-model, tokenizer = load_model_and_tokenizer('twitter_sentiment_model.keras', "tokenizer.json")
+model, tokenizer = load_model_and_tokenizer('myapp/twitter_sentiment_model.h5', "tokenizer.json")
 
 @api_view(['POST'])
 def predict_sentiment(request):
