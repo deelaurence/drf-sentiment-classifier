@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1p8-3d_$q#ne^g!m6!n6cy-_@e)sd)yxi&$h-9hnyyo-*gv+ne
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['62.72.16.157','127.0.0.1']
+ALLOWED_HOSTS = ['62.72.16.157','127.0.0.1','sentimental-drf.onrender.com']
 
 
 # Application definition
@@ -62,7 +62,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5500",  # Add your local development server URL
+    "http://127.0.0.1:5500",
+    "https://happy-or-pissed.netlify.app"  # Add your local development server URL
 ]
 
 
