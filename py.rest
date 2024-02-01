@@ -1,5 +1,15 @@
 
-POST http://localhost:8000/api/predict/
+POST http://62.72.16.157:8000/api/predict/
+Content-Type: application/json
+
+{
+    "sentences" : [
+  "News at eight is very annoying"
+
+]
+}
+###
+GET http://62.72.16.157:3003
 Content-Type: application/json
 
 {
