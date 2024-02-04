@@ -1,5 +1,28 @@
 
+POST http://127.0.0.1:8000/api/predict/
+Content-Type: application/json
+
+{
+    "sentences" : [
+  "aa a a a a a a aa a News at eigh is very newss at eight is very annoying News at eigh is very newss at eight is"
+
+]
+}
+###
+
+
 POST http://62.72.16.157:8000/api/predict/
+Content-Type: application/json
+
+{
+    "sentences" : [
+  "News at eigh is very annoying"
+
+]
+}
+###
+
+POST https://sentimental-drf.onrender.com/api/predict/
 Content-Type: application/json
 
 {

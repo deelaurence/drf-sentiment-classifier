@@ -27,7 +27,7 @@ def predict_sentiment(request):
 
     # Tokenize and pad the sequences
     sequences = tokenizer.texts_to_sequences(sentences)
-    padded = pad_sequences(sequences, padding='post', maxlen=20)
+    padded = pad_sequences(sequences, padding='post')
 
 
     
